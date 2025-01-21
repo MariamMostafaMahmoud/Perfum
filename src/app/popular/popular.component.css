@@ -1,0 +1,10 @@
+.cardPopular{
+    @apply bg-cardColor w-full py-5 px-3 md:py-8 md:px-10 xl:py-10 xl:px-12 flex justify-between items-center md:w-1/2;
+}
+.cardtitlePopular{
+    @apply text-xl md:text-2xl xl:text-3xl font-bold;
+}
+.cardbg{
+    background-image: linear-gradient(to right, #33003390,#330033),url('/images/popular_banner.jpg');
+
+}

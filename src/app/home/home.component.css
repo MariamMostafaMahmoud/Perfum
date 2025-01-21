@@ -1,0 +1,4 @@
+
+    .textPhr{
+        @apply text-[124px] leading-none sm:text-[170px] font-black text-[#241826] opacity-50;
+    }

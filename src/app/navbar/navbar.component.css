@@ -1,0 +1,3 @@
+.nav-link{
+   @apply text-lg font-bold hover:text-titleColor duration-300 cursor-pointer;
+}

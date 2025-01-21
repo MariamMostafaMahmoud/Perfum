@@ -1,0 +1,37 @@
+<header class="bg-bodyColor fixed w-full  top-0 left-0 z-50">
+    <nav class="container flex justify-between items-center  h-16 sm:h-20">
+        <div>
+            <p class="font-DancingScript text-2xl sm:text-5xl">perfume</p>
+        </div>
+        <div class="nav md:block" [class.hidden]="!isMenuOpen"  [ngClass]="isMenuOpen ? [
+        ' bg-cardColor', 
+        'flex', 
+        'justify-center', 
+        'items-center', 
+        'w-full', 
+        'min-h-[80vh]', 
+        'absolute', 
+        'top-0', 
+        'left-0', 
+        'gap-8'
+      ] : []"> 
+            <ul class="flex md:flex-row lg:flex-row  flex-col items-center gap-8 ">
+                <li class="nav-link ">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#collection">collection</a>
+                </li>
+                <li class="nav-link">
+                    <a  href="#popular">popular</a>
+                </li>
+                <li class="nav-link">
+                    <a  href="#About">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-xl sm:text-3xl cursor-pointer z-50 md:hidden" (click)="menufun()">
+            <i [ngClass]="isMenuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars-staggered'"></i>
+        </div>
+    </nav>
+</header>

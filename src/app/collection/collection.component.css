@@ -1,0 +1,9 @@
+.card{
+    @apply bg-cardColor rounded-xl px-10 py-20;
+}
+.cardtitle{
+    @apply text-2xl md:text-3xl font-bold;
+}
+.iconArrow{
+    @apply bg-titleColor w-20 h-20 rounded-full flex items-center justify-center text-2xl border-8 border-sectionColor absolute -right-3 -bottom-3 cursor-pointer;
+}

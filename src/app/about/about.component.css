@@ -1,0 +1,3 @@
+.cardtitleabout{
+    @apply text-xl md:text-2xl xl:text-3xl font-bold;
+}
